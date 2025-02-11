@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1::first-letter{
+    color: #0515a7;
+    font-size: 2rem;
+}
+
+body{
+    padding: 3rem;
+}
+
+img{
+    width: 500px;
+    transition: 100ms;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+button{
+    width: 55px;
+}
+
+.primary-btn{
+    background-color: #0515a7;
+    color: #FFFFFF;
+}
+
+.secondary-btn{
+    background-color: #c10005;
+    color: #FFFFFF;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: #d900ff;
+    border-radius: 10px;
+    transition: 2000ms;
+}
+
+.box:hover{
+    background-color: #b9ec00;
+    border-radius: 100%;
+}
+
+section .card-title{
+    color: #16b8b8;
+}
+
+#main-logo{
+    background-color: #eaa7a7;
+    padding: 2rem;
+    color: #6d0000;
+}
+
+#special-title{
+    color: #00a43f;
+}
