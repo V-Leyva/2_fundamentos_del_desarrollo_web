@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sofadi+One&display=swap');
+
+*{
+    font-family: "Sofadi One", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    color: #ff0000;
+}
+
+h1{
+    color: #00ff00;
+}
+
+div h1{
+    color: #e5b60d;
+}
+
+div h1{
+    color: #d63b86;
+}
+
+.title{
+    color: #3900c9;
+    font-weight: 100;
+}
+
+.btn-primary{
+    color: #b600e3;
+}
+
+.modal{
+    color: #ffffff;
+    background-color: #0d0e0e;
+    width: 20rem;
+    margin: 3rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.modal button{
+    color: #ffffff;
+    background-color: #c90000;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+    top: -13rem;
+    left: 17.5rem;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.box{
+    color: #ffffff;
+    background-color: #d90019;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:nth-child(2){
+    color: #000000;
+    background-color: #00c9b6;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+
+.box:nth-child(4){
+    color: #000000;
+    background-color: #00c9b6;
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+.box:nth-child(10){
+    color: #000000;
+    background-color: #00c9b6;
+    position: sticky;
+    top: 1rem;
+    bottom: 0rem;
+}
+
+#special-title{
+    color: #00c9b6;
+    font-style: italic;
+}
+
