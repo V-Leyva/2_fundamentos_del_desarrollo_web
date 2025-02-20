@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     list-style: none;
 }
 
@@ -39,19 +39,19 @@ footer{
     justify-content: center;
 }
 
+.nav-links ul{
+    display: flex;
+    gap: 2rem;
+}
+
 .nav-links ul li{
     font-size: 1.2rem;
     transition: all 0.2s;
 }
 
-.nav-links ul li :hover{
+.nav-links ul li:hover{
     text-decoration: underline #ffd900 3px;
-    transform: scale(1.1);
-}
-
-.nav-links ul{
-    display: flex;
-    gap: 2rem;
+    transform: scale(1.3);
 }
 
 .logo-container{
@@ -81,10 +81,10 @@ footer{
 .card-image-container{
     flex: 1;
 }
-.card-image-container img {
+
+.card-image-container img{
     width: 30rem;
     height: 100%;
-    object-fit: cover;
     border-radius: 10px 0 0 10px;
     overflow: hidden;
 }
@@ -103,6 +103,8 @@ footer{
     border-radius: 10px;
     margin-top: 0.5rem;
     font-weight: bold;
+    align-self: flex-end;
+    margin: 8rem 0 0 0;
 }
 
 .aside-panel{
@@ -116,7 +118,7 @@ footer{
 }
 
 .aside-panel h2{
-    padding: 2rem;
+    padding: 2rem 0 0.5rem 0;
     border-bottom: 2px solid #ffffff;
 }
 
@@ -124,6 +126,7 @@ footer{
     display: flex;
     justify-content: center;
     gap: 3rem;
+    align-items: center;
 }
 
 .footer-links img{
